@@ -1,6 +1,8 @@
 Script to remove extra spaces between attributes in X_train, X_test
 cat X_train.txt | awk '{out=$1; for(i=2;i<=NF;i++){out=out" "$i}; print out}' > X_train_clean.txt
 
+cat features.txt | tr ',' '-' | awk '{ print $1$2 }' | tr '\n' ',' | sed 's/,/,/g' | sed 's/^/Subject,/' | sed 's/$/Label/' > train/data.csv
+paste -d':' subject_train.txt X_train_clean.txt y_train.txt | tr '\r' '&' | tr ':' ',' |  sed 's/&//' > alldata.csv 
 
 Script to merge files
 paste -d':' subject_train.txt X_train_clean.txt y_train.txt | tr '\r' '&' | tr ':' ',' |  sed 's/&//' > alldata.csv
