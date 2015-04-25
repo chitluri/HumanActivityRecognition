@@ -13,4 +13,4 @@ paste -d':' train/subject_train.txt train/X_train_clean.txt train/y_train.txt | 
 cat train/header.arff train/data.csv > train/trainingDataSelect.arff
 
 #Remove intermediate files
-rm train/X_train_clean.txt train/header.arff train/data.csv
+#rm train/X_train_clean.txt train/header.arff train/data.csv
