@@ -1,0 +1,54 @@
+Number of features removed in this iteration: 40
+Removing Feature: tBodyAcc-
+Percentage Correctness: 98.54461371055496
+Number of features removed in this iteration: 40
+Removing Feature: tGravityAcc-
+Percentage Correctness: 98.61262241566921
+Number of features removed in this iteration: 40
+Removing Feature: tBodyAccJerk-
+Percentage Correctness: 98.46300326441785
+Number of features removed in this iteration: 40
+Removing Feature: tBodyGyro-
+Percentage Correctness: 98.46300326441785
+Number of features removed in this iteration: 40
+Removing Feature: tBodyGyroJerk-
+Percentage Correctness: 98.31338411316649
+Number of features removed in this iteration: 13
+Removing Feature: tBodyAccMag-
+Percentage Correctness: 98.61262241566921
+Number of features removed in this iteration: 13
+Removing Feature: tGravityAccMag-
+Percentage Correctness: 98.61262241566921
+Number of features removed in this iteration: 13
+Removing Feature: tBodyAccJerkMag-
+Percentage Correctness: 98.54461371055496
+Number of features removed in this iteration: 13
+Removing Feature: tBodyGyroMag-
+Percentage Correctness: 98.55821545157781
+Number of features removed in this iteration: 13
+Removing Feature: tBodyGyroJerkMag-
+Percentage Correctness: 98.62622415669206
+Number of features removed in this iteration: 79
+Removing Feature: fBodyAcc-
+Percentage Correctness: 98.54461371055496
+Number of features removed in this iteration: 79
+Removing Feature: fBodyAccJerk-
+Percentage Correctness: 98.6670293797606
+Number of features removed in this iteration: 79
+Removing Feature: fBodyGyro-
+Percentage Correctness: 98.61262241566921
+Number of features removed in this iteration: 13
+Removing Feature: fBodyAccMag-
+Percentage Correctness: 98.65342763873775
+Number of features removed in this iteration: 13
+Removing Feature: fBodyBodyAccJerkMag-
+Percentage Correctness: 98.55821545157781
+Number of features removed in this iteration: 13
+Removing Feature: fBodyBodyGyroMag-
+Percentage Correctness: 98.6670293797606
+Number of features removed in this iteration: 13
+Removing Feature: fBodyBodyGyroJerkMag-
+Percentage Correctness: 98.5854189336235
+Number of features removed in this iteration: 7
+Removing Feature: angle
+Percentage Correctness: 98.57181719260065
